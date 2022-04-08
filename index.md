@@ -3,4 +3,4 @@ layout: default
 ---
 
 
-[Link to another page](./yandex.md)
+[yandexxx](./yandex.md)
