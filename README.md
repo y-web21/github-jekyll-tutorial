@@ -2,3 +2,5 @@
 scum of the earth
 
 https://docs.github.com/ja/pages/quickstart
+
+https://y-web21.github.io/something-like-tech-memo/
