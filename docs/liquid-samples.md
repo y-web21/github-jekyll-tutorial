@@ -1,3 +1,7 @@
+---
+title: Step by Step tutorial
+show_sidebar: true
+---
 
 {{ page.path }}
 
