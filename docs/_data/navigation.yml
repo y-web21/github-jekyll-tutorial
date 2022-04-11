@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: About
+  link: /about/
+- page: Github
+  ref: /https://github.com/y-web21/something-like-tech-memo
