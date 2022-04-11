@@ -1,0 +1,40 @@
+<style>
+  nav a {
+    /* font-size: 2rem; */
+    text-decoration: none;
+  }
+
+  .gnav li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  .gnav-active {
+    text-decoration: dashed;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000;
+    vertical-align:10%;
+  }
+</style>
+
+<nav>
+  <ul class="gnav">
+    <li>
+      <a href="/" {% if page.url=="/" %}class="gnav-active" {% endif %}>
+        Home
+      </a>
+    </li>
+    <li>
+      <a href="/about" {% if page.url=="/about/" %}class="gnav-active" {% endif %}>
+        About
+      </a>
+    </li>
+    <li>
+      <a href="/liquid-samples" {% if page.url=="/liquid-samples.html" %}class="gnav-active" {% endif %}>
+        liquid-sample
+      </a>
+    </li>
+  </ul>
+  {{ page.url }}
+  {{ page.path }}
+</nav>

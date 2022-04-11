@@ -3,7 +3,6 @@ title: Step by Step tutorial
 show_sidebar: true
 ---
 
-{{ page.path }}
 
 [オプション設定](http://jekyllrb-ja.github.io/docs/configuration/options/)
 [コマンドラインの使い方](http://jekyllrb-ja.github.io/docs/usage/)
