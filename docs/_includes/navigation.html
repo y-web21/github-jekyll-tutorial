@@ -1,28 +1,11 @@
 <style>
-  nav a {
-    /* font-size: 2rem; */
-    text-decoration: none;
-  }
-
-  .gnav li {
-    display: inline;
-    margin: 0 1rem;
-  }
-
-  .gnav-active {
-    text-decoration: dashed;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #000;
-    vertical-align: 10%;
-  }
 </style>
 
-<nav>
-  <ul class="gnav">
+<nav class="gnav">
+  <ul>
     {% for item in site.data.navigation %}
-    <li>
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="gnav-active" {% endif %}>
+    <li class="gnav__li">
+      <a href="{{ item.link }}" class="gnav__a {% if page.url == item.link %} gnav__a--current {% endif %}">
         {{ item.name }}
       </a>
     </li>
