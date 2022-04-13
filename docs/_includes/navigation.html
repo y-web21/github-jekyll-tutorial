@@ -1,0 +1,22 @@
+<style>
+</style>
+
+<nav class="gnav">
+  <ul>
+    {% for item in site.data.navigation %}
+    <li class="gnav__li">
+      <a href="{{ item.link | relative_url }}" class="gnav__a {% if page.url == item.link %} gnav__a--current {% endif %}">
+        {{ item.name }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  {% if jekyll.environment == "development" %}
+  <ul>
+      <li>jekyll.environment = {{ jekyll.environment }}</li>
+      <li>page.url = {{ page.url }}</li>
+      <li>page.path = {{ page.path }}</li>
+    </ul>
+  {% endif %}
+</nav>
