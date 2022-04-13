@@ -1,4 +1,4 @@
-# something-like-tech-memo
+# github-jekyll-tutotial
 scum of the earth
 
 https://docs.github.com/ja/pages/quickstart
