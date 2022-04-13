@@ -6,4 +6,4 @@ layout: home
 ---
 
 - [step-by-step tutorials](http://jekyllrb-ja.github.io/docs/step-by-step/01-setup/)
-    - [Lquid samples](./liquid-samples)
+    - [memo](./jekyll-memo)
