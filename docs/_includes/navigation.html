@@ -5,7 +5,7 @@
   <ul>
     {% for item in site.data.navigation %}
     <li class="gnav__li">
-      <a href="{{ item.link }}" class="gnav__a {% if page.url == item.link %} gnav__a--current {% endif %}">
+      <a href="{{ item.link | relative_url }}" class="gnav__a {% if page.url == item.link %} gnav__a--current {% endif %}">
         {{ item.name }}
       </a>
     </li>
